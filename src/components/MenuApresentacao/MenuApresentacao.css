@@ -44,14 +44,19 @@
   filter: brightness(0.9);
 }
 
-@media (max-width: 768px) {
-  .menu-apresentacao {
-    padding: 60px 20px;
-    align-items: center;
-    text-align: center;
+.apresentacao-botao.loading {
+  background-color: #ff8e8e;
+  cursor: not-allowed;
+}
+
+@media print {
+  .header-container, 
+  .apresentacao-botao,
+  .footer-socials {
+    display: none !important;
   }
   
-  .apresentacao-content {
-    align-items: center;
+  .menu-apresentacao {
+    padding: 20px !important;
   }
 }
