@@ -1,0 +1,72 @@
+.blog-section {
+  background-color: #EDF7FA;
+  padding-left: 0px;
+  margin-right: 72px;
+  padding-right: 61px;
+  padding-top: 32px;
+  padding-bottom: 50px;
+}
+
+.blog-header {
+  padding-left: 163px;
+  margin-bottom: 20px;
+}
+
+.blog-header h2 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
+  color: #21243D;
+  font-weight: 400;
+}
+
+.blog-container {
+  padding-left: 163px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background-color: #FFFFFF;
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+  padding: 24px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  color: #21243D;
+  margin: 0;
+}
+
+.card-info {
+  gap: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #21243D;
+  margin-bottom: 11px;
+}
+
+.card-separator {
+  color: #21243D;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #21243D;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
