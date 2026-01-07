@@ -33,7 +33,7 @@ const Blog: React.FC = () => {
         <h2>Blog</h2>
       </div>
       
-      <div className="blog-container d-flex jc-space-between">
+      <div className="blog-container d-flex fd-column al-center">
         {posts.map(post => (
           <article key={post.id} className="blog-card d-flex fd-column">
             <h3 className="card-title">{post.title}</h3>
