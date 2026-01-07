@@ -28,7 +28,7 @@ const Blog: React.FC = () => {
   ];
 
   return (
-    <section className="blog-section jc-space-between">
+    <section className="blog-section jc-space-between" id="blog">
       <div className="blog-header">
         <h2>Blog</h2>
       </div>
