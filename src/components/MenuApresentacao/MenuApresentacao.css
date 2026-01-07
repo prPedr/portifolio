@@ -8,11 +8,11 @@
 }
 
 .apresentacao-content {
-  display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 100%;
 }
+
 .apresentacao-titulo {
   font-weight: 700;
   font-size: 32px;
@@ -58,12 +58,8 @@
     padding: 150px 50px;
   }
 
-  .apresentacao-titulo {
-    font-size: 38px;
-    line-height: 50px;
-  }
-  
   .apresentacao-content {
+    align-items: flex-start;
     gap: 40px;
   }
 }
@@ -72,14 +68,9 @@
   .menu-apresentacao {
     padding: 200px 163px;
   }
-
-  .apresentacao-titulo {
-    font-size: 44px;
-    line-height: 60px;
-  }
   
   .apresentacao-content {
-    max-width: 600px; 
+    max-width: 600px;
   }
 }
 
